@@ -1,0 +1,116 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+ 
+body{
+
+    background-color: #14268C;
+}
+
+.question{
+    font-family: "Press Start 2P", system-ui;
+    font-size: 55px;
+    text-align: center;
+    margin-top: 150px;
+
+
+}
+.container-question{
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.answer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    transition: 0.5sec;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 120px;
+    height: 110px;
+    border:1px solid aqua;
+    border-radius:15px ;
+    color:white;
+    background-color: #000000;
+}
+
+
+  
+
+.answer:hover{
+    box-shadow: 2px 2px 30px 2px #0062ff;
+    transition: 0.5s;
+    
+}
+
+.counter-box{
+    font-family: "Press Start 2P", system-ui;
+    font-size: 15px;
+    text-align: left;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+
+.time1{
+    font-family: "Press Start 2P", system-ui;
+    font-size: 15px;
+    text-align: right;
+
+}
+.time-box{
+    font-family: "Press Start 2P", system-ui;
+    font-size: 15px;
+    text-align: right;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.end{
+    font-family: "Press Start 2P", system-ui;
+    justify-content: center;
+    font-size: 50px;
+    display: none;
+    margin-top: 150px;
+}
+.end1{
+    font-family: "Press Start 2P", system-ui;
+    justify-content: center;
+    font-size: 50px;
+    display: none;
+    margin-top: 150px;
+    align-items: center;
+    transition: 0.5sec;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 420px;
+    height: 110px;
+    border:1px solid aqua;
+    border-radius:15px ;
+    color:white;
+    background-color: #000000;
+}
+.end1:hover{
+    box-shadow: 2px 2px 30px 2px #0062ff;
+    transition: 0.5s;
+    
+
+}
+.endbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.end2{
+    font-family: "Press Start 2P", system-ui;
+    justify-content: center;
+    font-size: 50px;
+    display: none;
+    margin-top: 150px;
+}
